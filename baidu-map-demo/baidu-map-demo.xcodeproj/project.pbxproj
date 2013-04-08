@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66F698E21712944B0091F3DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F698E11712944B0091F3DB /* UIKit.framework */; };
+		66F698E41712944B0091F3DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F698E31712944B0091F3DB /* Foundation.framework */; };
+		66F698E61712944B0091F3DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F698E51712944B0091F3DB /* CoreGraphics.framework */; };
+		66F698EC1712944B0091F3DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66F698EA1712944B0091F3DB /* InfoPlist.strings */; };
+		66F698EE1712944B0091F3DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F698ED1712944B0091F3DB /* main.m */; };
+		66F698F21712944B0091F3DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F698F11712944B0091F3DB /* AppDelegate.m */; };
+		66F698F41712944B0091F3DB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F698F31712944B0091F3DB /* Default.png */; };
+		66F698F61712944B0091F3DB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F698F51712944B0091F3DB /* Default@2x.png */; };
+		66F698F81712944B0091F3DB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F698F71712944B0091F3DB /* Default-568h@2x.png */; };
+		66F698FB1712944B0091F3DB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F698F91712944B0091F3DB /* MainStoryboard.storyboard */; };
+		66F698FE1712944B0091F3DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F698FD1712944B0091F3DB /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66F698DE1712944B0091F3DB /* baidu-map-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "baidu-map-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F698E11712944B0091F3DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66F698E31712944B0091F3DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66F698E51712944B0091F3DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66F698E91712944B0091F3DB /* baidu-map-demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "baidu-map-demo-Info.plist"; sourceTree = "<group>"; };
+		66F698EB1712944B0091F3DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66F698ED1712944B0091F3DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66F698EF1712944B0091F3DB /* baidu-map-demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "baidu-map-demo-Prefix.pch"; sourceTree = "<group>"; };
+		66F698F01712944B0091F3DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66F698F11712944B0091F3DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66F698F31712944B0091F3DB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		66F698F51712944B0091F3DB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		66F698F71712944B0091F3DB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		66F698FA1712944B0091F3DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		66F698FC1712944B0091F3DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66F698FD1712944B0091F3DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66F698DB1712944B0091F3DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F698E21712944B0091F3DB /* UIKit.framework in Frameworks */,
+				66F698E41712944B0091F3DB /* Foundation.framework in Frameworks */,
+				66F698E61712944B0091F3DB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66F698D51712944B0091F3DB = {
+			isa = PBXGroup;
+			children = (
+				66F698E71712944B0091F3DB /* baidu-map-demo */,
+				66F698E01712944B0091F3DB /* Frameworks */,
+				66F698DF1712944B0091F3DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66F698DF1712944B0091F3DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66F698DE1712944B0091F3DB /* baidu-map-demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66F698E01712944B0091F3DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66F698E11712944B0091F3DB /* UIKit.framework */,
+				66F698E31712944B0091F3DB /* Foundation.framework */,
+				66F698E51712944B0091F3DB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66F698E71712944B0091F3DB /* baidu-map-demo */ = {
+			isa = PBXGroup;
+			children = (
+				66F698F01712944B0091F3DB /* AppDelegate.h */,
+				66F698F11712944B0091F3DB /* AppDelegate.m */,
+				66F698F91712944B0091F3DB /* MainStoryboard.storyboard */,
+				66F698FC1712944B0091F3DB /* ViewController.h */,
+				66F698FD1712944B0091F3DB /* ViewController.m */,
+				66F698E81712944B0091F3DB /* Supporting Files */,
+			);
+			path = "baidu-map-demo";
+			sourceTree = "<group>";
+		};
+		66F698E81712944B0091F3DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66F698E91712944B0091F3DB /* baidu-map-demo-Info.plist */,
+				66F698EA1712944B0091F3DB /* InfoPlist.strings */,
+				66F698ED1712944B0091F3DB /* main.m */,
+				66F698EF1712944B0091F3DB /* baidu-map-demo-Prefix.pch */,
+				66F698F31712944B0091F3DB /* Default.png */,
+				66F698F51712944B0091F3DB /* Default@2x.png */,
+				66F698F71712944B0091F3DB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66F698DD1712944B0091F3DB /* baidu-map-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F699011712944B0091F3DB /* Build configuration list for PBXNativeTarget "baidu-map-demo" */;
+			buildPhases = (
+				66F698DA1712944B0091F3DB /* Sources */,
+				66F698DB1712944B0091F3DB /* Frameworks */,
+				66F698DC1712944B0091F3DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "baidu-map-demo";
+			productName = "baidu-map-demo";
+			productReference = 66F698DE1712944B0091F3DB /* baidu-map-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66F698D61712944B0091F3DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "AnyDATA-LBS-TZQ";
+			};
+			buildConfigurationList = 66F698D91712944B0091F3DB /* Build configuration list for PBXProject "baidu-map-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66F698D51712944B0091F3DB;
+			productRefGroup = 66F698DF1712944B0091F3DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66F698DD1712944B0091F3DB /* baidu-map-demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F698DC1712944B0091F3DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F698EC1712944B0091F3DB /* InfoPlist.strings in Resources */,
+				66F698F41712944B0091F3DB /* Default.png in Resources */,
+				66F698F61712944B0091F3DB /* Default@2x.png in Resources */,
+				66F698F81712944B0091F3DB /* Default-568h@2x.png in Resources */,
+				66F698FB1712944B0091F3DB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66F698DA1712944B0091F3DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F698EE1712944B0091F3DB /* main.m in Sources */,
+				66F698F21712944B0091F3DB /* AppDelegate.m in Sources */,
+				66F698FE1712944B0091F3DB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66F698EA1712944B0091F3DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F698EB1712944B0091F3DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66F698F91712944B0091F3DB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F698FA1712944B0091F3DB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66F698FF1712944B0091F3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66F699001712944B0091F3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66F699021712944B0091F3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "baidu-map-demo/baidu-map-demo-Prefix.pch";
+				INFOPLIST_FILE = "baidu-map-demo/baidu-map-demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66F699031712944B0091F3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "baidu-map-demo/baidu-map-demo-Prefix.pch";
+				INFOPLIST_FILE = "baidu-map-demo/baidu-map-demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66F698D91712944B0091F3DB /* Build configuration list for PBXProject "baidu-map-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F698FF1712944B0091F3DB /* Debug */,
+				66F699001712944B0091F3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F699011712944B0091F3DB /* Build configuration list for PBXNativeTarget "baidu-map-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F699021712944B0091F3DB /* Debug */,
+				66F699031712944B0091F3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66F698D61712944B0091F3DB /* Project object */;
+}
