@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BMapKit.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <BMKMapViewDelegate>
+{
+    IBOutlet BMKMapView *_mapView;
+}
 
 @end

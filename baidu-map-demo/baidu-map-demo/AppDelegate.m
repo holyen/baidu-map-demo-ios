@@ -16,6 +16,7 @@
 {
     [_window release];
     [_viewController release];
+    [_mapManager release];
     [super dealloc];
 }
 
